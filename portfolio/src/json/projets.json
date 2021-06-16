@@ -1,0 +1,41 @@
+{
+    "projets":[
+        {
+            "Title" : "Calculatrice",
+            "Date": "Septembre, 2020",
+            "Description" : "Un simple défi que j'ai eu envie de me lancer sur un coup de tête. Une calculatrice qui n'effectue que les opérations mathématiques de base : l'addition, la soustraction, la multiplication, et la division. J'ai pu remarquer un bug assez sympa, la division par 0 était générée par l'application comme la limite en 0.",
+            "website": "http://projet06.razafin-andry.fr/",
+            "img":"shifumi.png"
+        },
+        {
+            "Title": "Morpion",
+            "Date": "Septembre, 2020",
+            "Description":"Autre défi qui m'est venu en tête après avoir découvert DOM de Javascript. Il s'agit d'un morpion, ou autrement dit TicTacToe. C'est un projet que je souhaiterai refaire avec un code plus propre, plus structuré, un front plus joli et responsive, et un mode online.",
+            "website":"http://projet07.razafin-andry.fr/",
+            "img":"../assets/gamification.png"
+        },
+        {
+            "Title":"Shifumi V2 - ReactJS",
+            "Date": "6 Mars - 7 Mars, 2021",
+            "Description":"C'est un projet pour m'initier et commencer à apprendre ReactJS pendant un week-end. C'est une nouvelle version de shifumi. C'est à finir !",
+            "website":"http://projet08.razafin-andry.fr/",
+            "img":"../assets/shifumi.png"
+        },
+        {
+            "Title":"Rez'ordi",
+            "Date":"15 Mars - 22 Mars, 2021",
+            "Description":"Le test d'entrée pour la formation de \"Concepteur Développeur d'Applications \". Il s'agit d'une application web pour gérer un réseau d'ordinateur. Le délai était d'une semaine. Sachant que je pouvais le finir sous Laravel en quelques jours, j'ai décidé de commencer à apprendre le framework VueJS et de faire ce test avec Vuejs pour le front et Laravel pour le back.",
+            "website":"http://rezordi.razafin-andry.fr/",
+            "img":"../assets/rezordi.PNG"
+        }
+    ],
+    "grosprojets": [{
+            "Title" : "ToutouList",
+            "Data":"29 Janvier, 2021",
+            "Description":"Il s'agit d'un gros projet personnel qui me permet de mettre en pratique tout ce que j'ai pu apprendre durant ces derniers moi depuis ma reconversion professionnelle (technologies, framework, bibliothéque, méthode de travail, etc.) Plus de détails arriveront plus tard!",
+            "website":"http://toutoulist.razafin-andry.fr/",
+            "img":"../assets/toutoulist.png"
+    },{
+
+    }]
+}

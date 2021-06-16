@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
+
+body{
+    font-family: 'Londrina Solid', cursive;
+}
+
+#accueil{
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #141414 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #141414 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #141414 100%);
+    height:100vh;
+}
+
+#photo_profil{
+    margin-bottom:-70px;
+background-color: white;
+    z-index: 1;
+}
+
+#presentation{
+    border:2px solid black;
+}
+
+#presentation > h1{
+    font-size:50px;
+}
+
+#parcours > .text-center > h2{
+    font-size:40px;
+}
+
+#competences{
+    background: #3F353A;
+background: -moz-linear-gradient(45deg, #3F353A 0%, #C4C7CB 53%, #FFFFFF 100%);
+background: -webkit-linear-gradient(45deg, #3F353A 0%, #C4C7CB 53%, #FFFFFF 100%);
+background: linear-gradient(45deg, #3F353A 0%, #C4C7CB 53%, #FFFFFF 100%);
+-webkit-box-shadow: 5px 5px 12px 9px #000000; 
+box-shadow: 5px 5px 12px 9px #000000;
+}
+
+#competences > h2 {
+    font-size:40px;
+}
+
+
+.d_comp{
+    font-size:20px;
+}
+
+footer{
+    background: #FFFFFF;
+background: -moz-linear-gradient(top, #FFFFFF 0%, #D3EAEA 50%, #0F1E21 100%);
+background: -webkit-linear-gradient(top, #FFFFFF 0%, #D3EAEA 50%, #0F1E21 100%);
+background: linear-gradient(to bottom, #FFFFFF 0%, #D3EAEA 50%, #0F1E21 100%);
+}
+
+@media all and (max-width:640px){
+    #accueil{
+        height:100%
+    }
+
+    #photo_profil{
+        margin-top:50px;
+        margin-bottom:-90px;
+        padding:px;
+        z-index:0;
+    }
+
+    #presentation{
+        width:80%;
+        height:100%;
+        margin-bottom:50px;
+    }
+
+    #presentation > h1{
+        font-size:25px;
+    }
+
+    #competences > h2 {
+        font-size:20px;
+    }
+    
+}
